@@ -93,7 +93,7 @@
     }
 
     return elem.__audio = Object.assign(new Audio(path), {
-      volume: 0.65,
+      volume: 0.75,
       onplay: onPlayStateChange,
       onpause: onPlayStateChange
     });
