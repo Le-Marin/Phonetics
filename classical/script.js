@@ -84,8 +84,7 @@
   function getAudio(elem) {
     if (elem.hasOwnProperty('__audio')) return elem.__audio;
 
-    const text = elem.parentNode.previousElementSibling.textContent;
-    const name = text.match(/[a-z]+/)[0];
+    const name = elem.dataset.name || getDefaultAudioName(elem);
     const path = `./audio/${name}.mp3`;
 
     function onPlayStateChange() {
@@ -97,5 +96,10 @@
       onplay: onPlayStateChange,
       onpause: onPlayStateChange
     });
+  }
+
+  function getDefaultAudioName(elem) {
+    const text = elem.parentNode.previousElementSibling.textContent;
+    return text.match(/[a-z]+/)[0];
   }
 })();

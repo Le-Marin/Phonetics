@@ -1,3 +1,6 @@
+:root {
+  color-scheme: light;
+}
 * {
   box-sizing: border-box;
 }
@@ -13,7 +16,7 @@ body {
 }
 .container {
   max-width: 50em;
-  padding: .5em;
+  padding: .75em;
   margin: 0 auto;
 }
 .table {
@@ -41,6 +44,10 @@ body {
 }
 .item__example {
   color: #777;
+}
+.ls {
+  font-weight: normal;
+  color: initial;
 }
 .item__example > b {
   color: initial;
