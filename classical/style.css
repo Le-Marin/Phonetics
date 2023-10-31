@@ -1,4 +1,5 @@
 :root {
+  font-size: 0.625rem;
   color-scheme: light;
 }
 * {
@@ -6,7 +7,7 @@
 }
 body {
   font-family: serif;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
@@ -53,7 +54,7 @@ body {
   color: initial;
 }
 .item sup {
-  font-size: .8rem;
+  font-size: 1.3rem;
   font-weight: normal;
   color: initial;
   cursor: help;
@@ -62,11 +63,11 @@ body {
   position: relative;
 }
 .play {
-  width: 1rem;
-  height: 1rem;
+  width: 1.6rem;
+  height: 1.6rem;
   position: absolute;
-  left: -1.4rem;
-  top: calc(50% - .5rem);
+  left: -2.2rem;
+  top: calc(50% - .8rem);
   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8IS0tIDxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE0LjAxOHB4IiBoZWlnaHQ9IjE0cHgiIHZpZXdCb3g9IjAgMCAxNC4wMTggMTQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0LjAxOCAxNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogLS0+CiA8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiAgdmlld0JveD0iMCAwIDIwIDIwIj4KCSA8Y2lyY2xlIHI9IjEwIiBjeD0iMTAiIGN5PSIxMCIgZmlsbD0iIzNiNjI4MCIvPgoKPHN5bWJvbCBpZD0iZGluIj4KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xLDRDMC40NDcsNCwwLDQuNDQ3LDAsNXY0YzAsMC41NTMsMC40NDcsMSwxLDFoMWw0LDRWMEwyLDRIMXogTTEwLjM0Niw3YzAtMS42OTktMS4wNDItMy4xNTQtMi41NDYtMy44NjdMNi45ODIsNC42OAoJCUM3Ljg4NSw1LjEwNyw4LjUxLDUuOTgsOC41MSw3UzcuODg1LDguODkzLDYuOTgyLDkuMzJMNy44LDEwLjg2N0M5LjMwNCwxMC4xNTQsMTAuMzQ2LDguNjk5LDEwLjM0Niw3eiBNOS40NDcsMC4wMTdMOC42MTgsMS41ODYKCQlDMTAuNzIzLDIuNTg0LDEyLjE4Miw0LjYyMSwxMi4xODIsN3MtMS40NTksNC40MTYtMy41NjMsNS40MTRsMC44MjksMS41NjljMi43MDctMS4yODMsNC41Ny0zLjkyNSw0LjU3LTYuOTgzCgkJUzEyLjE1NCwxLjMsOS40NDcsMC4wMTd6Ii8+Cjwvc3ltYm9sPgoJPHVzZSB4bGluazpocmVmPSIjZGluIiB4PSIzIiB5PSIzIiAvPgo8L3N2Zz4KCgo=") no-repeat center / contain;
   border: 2px solid #3f65a0;
   border-radius: 50%;
@@ -94,9 +95,9 @@ body {
   margin-right: .5em;
 }
 #tip {
-  font-size: 1rem;
-  max-width: 20rem;
-  max-width: clamp(19rem, 94vw, 25rem);
+  font-size: 1.6rem;
+  max-width: 20em;
+  max-width: clamp(19em, 94vw, 25em);
   position: absolute;
   left: 0;
   top: 0;
